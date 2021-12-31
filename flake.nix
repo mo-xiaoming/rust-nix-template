@@ -20,6 +20,8 @@
           RUSTFLAGS="-C target-cpu=native";
 
           nativeBuildInputs = [
+            pkgs.mold
+            pkgs.inotify-tools
             (fenix-rust.complete.withComponents [
               "cargo"
               "clippy"

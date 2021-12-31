@@ -14,6 +14,8 @@ mkShell rec {
   buildInputs = [
     #rust-analyzer
     ruststable
+    mold
+    inotify-tools
   ]
   ++ lib.optionals stdenv.isDarwin (with darwin.apple_sdk.frameworks; [
     CoreServices
