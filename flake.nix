@@ -22,7 +22,8 @@
           nativeBuildInputs = [
             pkgs.mold
             pkgs.inotify-tools
-            (fenix-rust.complete.withComponents [
+            #(fenix-rust.complete.withComponents [
+            (fenix-rust.stable.withComponents [
               "cargo"
               "clippy"
               "rust-src"
