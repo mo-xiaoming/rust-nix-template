@@ -22,6 +22,8 @@
           nativeBuildInputs = [
             pkgs.mold
             pkgs.inotify-tools
+            pkgs.cargo-watch
+            #pkgs.cargo-nextest
             #(fenix-rust.complete.withComponents [
             (fenix-rust.stable.withComponents [
               "cargo"
