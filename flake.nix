@@ -23,7 +23,7 @@
             pkgs.mold
             pkgs.cargo-watch
             pkgs.cargo-modules
-            pkgs.cargo-fuzz
+            pkgs.cargo-nextest
             #(fenix-rust.complete.withComponents [
             (fenix-rust.stable.withComponents [
               "cargo"
