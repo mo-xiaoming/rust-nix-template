@@ -1,2 +1,4 @@
 /target
 .tags
+flake.lock
+Cargo.lock
